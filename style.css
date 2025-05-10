@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.color-button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+}
+
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.yellow { background-color: gold; }
